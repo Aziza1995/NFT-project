@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  background-color: #1C233D;
+}
+.container nav {
+  width: 90%;
+  height: 50px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  margin: 10px 0;
+}
+.container nav a {
+  color: white;
+}
+.container nav a button {
+  padding: 5px 20px;
+  border-radius: 5px;
+  background-color: #C068E3;
+  color: white;
+}
+.container .cardBlok {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container .cardBlok .cardText {
+  width: 40%;
+  color: white;
+}
+.container .cardBlok .cardText .text {
+  margin: 50px 40px;
+}
+.container .cardBlok .cardText .text h1 {
+  font-size: 50px;
+}
+.container .cardBlok .cardText .text p {
+  padding: 10px 0;
+}
+.container .cardBlok .cardText .text button {
+  padding: 5px 30px;
+  border-radius: 5px;
+  background-color: #C068E3;
+  color: white;
+  font-size: 13px;
+}
+.container .cardBlok .cardText ul {
+  display: flex;
+  margin-left: 40px;
+}
+.container .cardBlok .cardText ul li {
+  gap: 20px;
+}
+.container .cardBlok .cardImg {
+  width: 40%;
+  margin-top: 5%;
+  margin-left: 10%;
+}
+.container .cardGroup {
+  width: 90%;
+  margin-top: 30px;
+  margin-left: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.container .card-block {
+  width: 90%;
+  margin: 50px 50px;
+}
+.container .card-block h4 {
+  text-align: center;
+  color: #9C76B8;
+}
+.container .card-block h1 {
+  text-align: center;
+  color: white;
+  padding: 10px 0;
+}
+.container .card-block span {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.container .card-block button {
+  padding: 10px 30px;
+  border-radius: 5px;
+  background-color: #30384D;
+  color: white;
+}
+.container .block-card {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.container .block-card .groupCard {
+  width: 28%;
+  margin: 50px auto;
+  background-color: #30384D;
+}
+.container .block-card .groupCard img {
+  width: 80%;
+  margin: 20px 40px;
+}
+.container .block-card .groupCard span {
+  display: flex;
+  justify-content: space-between;
+}
+.container .block-card .groupCard span h1 {
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+}
+.container .block-card .groupCard span h4 {
+  margin: 20px 10px;
+}
+.container .block-card .groupCard span p {
+  color: white;
+  margin: 5px 10px;
+}
+.container .block-card .groupCard span .foto img {
+  width: 70%;
+  margin: -10px -10px;
+}
+.container .futer button {
+  padding: 10px 30px;
+  background-color: #30384D;
+  color: white;
+  border-radius: 5px;
+  margin: 20px 45%;
+}/*# sourceMappingURL=stayl.css.map */
